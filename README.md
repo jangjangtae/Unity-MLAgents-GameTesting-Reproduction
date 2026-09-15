@@ -24,7 +24,15 @@ The preserved archive contains experiment videos showing:
 - The reproduced baseline Unity test environment and ML-Agents configuration/output.
 - Additional Unity–Python training tests used while validating the workflow.
 
-See [`docs/evidence.md`](docs/evidence.md) for the preserved evidence inventory and what each artifact supports.
+### Recorded Experiment Videos
+
+- [Unity / ML-Agents experiment recording 1](https://youtu.be/Coj5pLiVt6M)
+- [Unity / ML-Agents experiment recording 2](https://youtu.be/uP0psmzjMY4)
+- [Unity / ML-Agents experiment recording 3](https://youtu.be/M7ACJHdS7tI)
+
+These recordings are included as visual evidence of the Unity–trainer integration, reproduced test environment, and training/debugging workflow documented in this repository.
+
+See [`docs/evidence.md`](docs/evidence.md) for the preserved evidence inventory and what the archived artifacts support.
 
 ## Preserved Source Files
 
