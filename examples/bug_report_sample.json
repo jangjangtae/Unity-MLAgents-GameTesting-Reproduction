@@ -1,0 +1,17 @@
+{
+  "_note": "Condensed from a preserved 2025 UnityPGTA reproduction log. Repeated warning/error arrays were omitted for portfolio readability.",
+  "source_file": "bug_report2025_02_24_12_26_42.json",
+  "real_time": "122.18",
+  "unique_error_count": 1,
+  "error_count": 8,
+  "warning_count": 50255,
+  "unique_error_types": [
+    "에러 메시지 입니다."
+  ],
+  "unique_error_steps": [
+    0
+  ],
+  "unique_errors": [
+    "UnityEngine.Debug:LogError (object)\ncollision:OnCollisionEnter (UnityEngine.Collision) (at Assets/UnityPGTA-master/collision.cs:23)\nUnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int) (at /home/bokken/build/output/unity/unity/Modules/Physics/ScriptBindings/PhysicsContact.bindings.cs:49)\n"
+  ]
+}
