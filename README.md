@@ -17,17 +17,14 @@ The goal of the original study was not to claim a new UnityPGTA implementation. 
 
 ## Evidence from the 2025 Study
 
-### ML-Agents training execution
+The preserved archive contains experiment videos showing:
 
-![Unity ML-Agents training with reward progression](docs/images/training-success.png)
+- Unity running together with the Python `mlagents-learn` trainer.
+- Training summaries progressing while mean reward increases during a recorded run.
+- The reproduced baseline Unity test environment and ML-Agents configuration/output.
+- Additional Unity–Python training tests used while validating the workflow.
 
-A preserved experiment video shows Unity connected to `mlagents-learn` while training progresses. In the visible trainer output, mean reward increases across training summaries, providing evidence that the environment–trainer pipeline was operating.
-
-### Reproduction environment
-
-![UnityPGTA reproduction environment](docs/images/pgta-baseline.png)
-
-The preserved baseline video shows the Unity test scene alongside the ML-Agents trainer configuration/output.
+See [`docs/evidence.md`](docs/evidence.md) for the preserved evidence inventory and what each artifact supports.
 
 ## Preserved Source Files
 
@@ -67,12 +64,10 @@ See [`docs/historical_commands.md`](docs/historical_commands.md) for context.
 ├── examples/
 │   └── bug_report_sample.json
 └── docs/
+    ├── evidence.md
     ├── historical_commands.md
     ├── reproduction_notes.md
-    ├── provenance.md
-    └── images/
-        ├── pgta-baseline.png
-        └── training-success.png
+    └── provenance.md
 ```
 
 ## Reproduction Notes
